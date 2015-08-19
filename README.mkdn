@@ -1,0 +1,33 @@
+Copyright (C) Sony Mobile Communications 2014
+=============================================
+
+Open Devices need UNLOCKED BOOTLOADER
+-------------------------------------
+
+Read about http://developer.sonymobile.com/unlockbootloader/
+
+Build instructions
+------------------
+
+1.- Follow the guide to step No.3 from http://developer.sonymobile.com/knowledge-base/open-source/open-devices/aosp-build-instructions/how-to-build-aosp-lollipop-for-unlocked-xperia-devices/ 
+
+2.- Copy sony.xml into android/.repo/local_manifests/
+
+3.- repo sync
+
+4.- source build/envsetup.sh && lunch
+
+5.- When prompted, pick the number corresponding to your device in the list displayed and press enter.
+
+6.- make –j <insert the cpu thread number of your computer>
+
+Install instructions
+--------------------
+
+1.- fastboot flash boot out/target/product/<device>/boot.img
+
+2.- fastboot flash system out/target/product/<device>/system.img
+
+3.- fastboot flash userdata out/target/product/<device>/userdata.img
+
+Note! For Xperia Z3+, Xperia Z4 Tablet, and Xperia Z4 Tablet WiFi, you have to flash the system image using the command fastboot –S 256M flash system system.img
