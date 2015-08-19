@@ -9,7 +9,7 @@ Read about http://developer.sonymobile.com/unlockbootloader/
 Build instructions
 ------------------
 
-1.- Follow the guide to step No.3 from http://developer.sonymobile.com/knowledge-base/open-source/open-devices/aosp-build-instructions/how-to-build-aosp-lollipop-for-unlocked-xperia-devices/ 
+1.- Follow the guide to step No.3 from http://developer.sonymobile.com/knowledge-base/open-source/open-devices/aosp-build-instructions/how-to-build-aosp-m-developer-preview-for-unlocked-xperia-devices/ 
 
 2.- Copy sony.xml into android/.repo/local_manifests/
 
