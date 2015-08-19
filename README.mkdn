@@ -19,7 +19,7 @@ Build instructions
 
 5.- When prompted, pick the number corresponding to your device in the list displayed and press enter.
 
-6.- make –j <insert the cpu thread number of your computer>
+6.- make -j"cpu_cores+1" (example for dualcore processor PC: "make -j3")
 
 Install instructions
 --------------------
