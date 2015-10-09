@@ -13,6 +13,10 @@
 <project path="device/sony/eagle"                name="device-sony-eagle"          groups="device" remote="sony"     revision="master" />
 <project path="device/sony/flamingo"             name="device-sony-flamingo"       groups="device" remote="sony"     revision="master" />
 <project path="device/sony/honami"               name="device-sony-honami"         groups="device" remote="sony"     revision="master" />
+<project path="device/sony/ivy"                  name="device-sony-ivy"            groups="device" remote="sony"     revision="master" />
+<project path="device/sony/karin"                name="device-sony-karin"          groups="device" remote="sony"     revision="master" />
+<project path="device/sony/karin_windy"          name="device-sony-karin_windy"    groups="device" remote="sony"     revision="master" />
+<project path="device/sony/kitakami"             name="device-sony-kitakami"       groups="device" remote="sony"     revision="master" />
 <project path="device/sony/leo"                  name="device-sony-leo"            groups="device" remote="sony"     revision="master" />
 <project path="device/sony/rhine"                name="device-sony-rhine"          groups="device" remote="sony"     revision="master" />
 <project path="device/sony/scorpion"             name="device-sony-scorpion"       groups="device" remote="sony"     revision="master" />
@@ -31,5 +35,6 @@
 <project path="vendor/sony/system/macaddrsetup"  name="macaddrsetup"               groups="device" remote="sony"     revision="master" />
 <project path="vendor"                           name="vendor-sony-blobs"          groups="device" remote="alviteri" revision="master" />
 <project path="vendor/qcom/proprietary"          name="vendor-qcom-proprietary"    groups="device" remote="alviteri" revision="master" />
+<project path="vendor/google/products"           name="vendor-google-products"     groups="device" remote="alviteri" revision="master" />
 
 </manifest>
