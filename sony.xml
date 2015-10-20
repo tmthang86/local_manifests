@@ -6,6 +6,14 @@
 <remote name="alviteri" fetch="git://github.com/alviteri/" />
 
 
+<remove-project name="platform/hardware/qcom/media" />
+<remove-project name="platform/external/libnfc-nci" />
+<remove-project name="platform/hardware/broadcom/libbt" />
+<project path="hardware/qcom/media"     name="platform-hardware-qcom-media"     remote="alviteri" revision="android-6.0.0_r1" />
+<project path="external/libnfc-nci"     name="platform-external-libnfc-nci"     remote="alviteri" revision="android-6.0.0_r1" />
+<project path="hardware/broadcom/libbt" name="platform-hardware-broadcom-libbt" remote="alviteri" revision="android-6.0.0_r1" />
+
+
 <project path="device/sony/amami"                name="device-sony-amami"          groups="device" remote="sony"     revision="master" />
 <project path="device/sony/aries"                name="device-sony-aries"          groups="device" remote="sony"     revision="master" />
 <project path="device/sony/castor"               name="device-sony-castor"         groups="device" remote="sony"     revision="master" />
@@ -41,6 +49,5 @@
 <project path="device/qcom/boringssl-compat"     name="boringssl-compat"           groups="device" remote="sony"     revision="master" />
 <project path="vendor"                           name="vendor-sony-blobs"          groups="device" remote="alviteri" revision="master" />
 <project path="vendor/qcom/proprietary"          name="vendor-qcom-proprietary"    groups="device" remote="alviteri" revision="master" />
-<project path="vendor/google/products"           name="vendor-google-products"     groups="device" remote="alviteri" revision="master" />
 
 </manifest>
