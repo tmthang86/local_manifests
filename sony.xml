@@ -14,6 +14,11 @@
 <project path="hardware/broadcom/libbt" name="platform-hardware-broadcom-libbt" remote="alviteri" revision="android-6.0.0_r1" />
 
 
+<project path="external/ant-wireless/ant_native" name="platform-external-ant-wireless-ant-native" remote="alviteri" revision="master" />
+<project path="external/ant-wireless/ant_service" name="platform-external-ant-wireless-ant-service" remote="alviteri" revision="master" />
+<project path="external/ant-wireless/antradio-library" name="platform-external-ant-wireless-antradio-library" remote="alviteri" revision="master" />
+
+
 <project path="device/sony/amami"                name="device-sony-amami"          groups="device" remote="sony"     revision="master" />
 <project path="device/sony/aries"                name="device-sony-aries"          groups="device" remote="sony"     revision="master" />
 <project path="device/sony/castor"               name="device-sony-castor"         groups="device" remote="sony"     revision="master" />
