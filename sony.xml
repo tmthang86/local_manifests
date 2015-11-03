@@ -7,11 +7,13 @@
 
 
 <remove-project name="platform/hardware/qcom/media" />
+<remove-project name="platform/hardware/qcom/gps" />
 <remove-project name="platform/external/libnfc-nci" />
 <remove-project name="platform/hardware/broadcom/libbt" />
-<project path="hardware/qcom/media"     name="platform-hardware-qcom-media"     remote="alviteri" revision="android-6.0.0_r1" />
-<project path="external/libnfc-nci"     name="platform-external-libnfc-nci"     remote="alviteri" revision="android-6.0.0_r1" />
-<project path="hardware/broadcom/libbt" name="platform-hardware-broadcom-libbt" remote="alviteri" revision="android-6.0.0_r1" />
+<project path="hardware/qcom/media"     name="platform-hardware-qcom-media"     remote="alviteri" revision="android-6.0.0_r26" />
+<project path="hardware/qcom/gps"       name="platform-hardware-qcom-gps"       remote="alviteri" revision="android-6.0.0_r26" />
+<project path="external/libnfc-nci"     name="platform-external-libnfc-nci"     remote="alviteri" revision="android-6.0.0_r26" />
+<project path="hardware/broadcom/libbt" name="platform-hardware-broadcom-libbt" remote="alviteri" revision="android-6.0.0_r26" />
 
 
 <project path="external/ant-wireless/ant_native" name="platform-external-ant-wireless-ant-native" remote="alviteri" revision="master" />
