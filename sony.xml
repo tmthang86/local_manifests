@@ -6,14 +6,19 @@
 <remote name="alviteri" fetch="git://github.com/alviteri/" />
 
 
+<!-- android-6.0.0_r26 -->
+<remove-project name="platform/external/libnfc-nci" />
+<remove-project name="platform/hardware/qcom/audio" />
 <remove-project name="platform/hardware/qcom/media" />
 <remove-project name="platform/hardware/qcom/gps" />
-<remove-project name="platform/external/libnfc-nci" />
 <remove-project name="platform/hardware/broadcom/libbt" />
+<remove-project name="platform/packages/apps/DeskClock" />
+<project path="external/libnfc-nci"     name="platform-external-libnfc-nci"     remote="alviteri" revision="android-6.0.0_r26" />
+<project path="hardware/qcom/audio"     name="platform-hardware-qcom-audio"     remote="alviteri" revision="android-6.0.0_r26" />
 <project path="hardware/qcom/media"     name="platform-hardware-qcom-media"     remote="alviteri" revision="android-6.0.0_r26" />
 <project path="hardware/qcom/gps"       name="platform-hardware-qcom-gps"       remote="alviteri" revision="android-6.0.0_r26" />
-<project path="external/libnfc-nci"     name="platform-external-libnfc-nci"     remote="alviteri" revision="android-6.0.0_r26" />
 <project path="hardware/broadcom/libbt" name="platform-hardware-broadcom-libbt" remote="alviteri" revision="android-6.0.0_r26" />
+<project path="packages/apps/DeskClock" name="platform-packages-apps-DeskClock" remote="alviteri" revision="android-6.0.0_r26" />
 
 
 <project path="external/ant-wireless/ant_native" name="platform-external-ant-wireless-ant-native" remote="alviteri" revision="master" />
