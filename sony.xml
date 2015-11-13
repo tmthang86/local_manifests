@@ -8,7 +8,10 @@
 
 
 <!-- android-6.0.0_r26 -->
+<!-- DSP Manager requires changes on frameworks-base and system/media also on devices needs override audio_effects.conf otherside
+     it will crash -->
 <remove-project name="platform/external/libnfc-nci" />
+<remove-project name="platform/frameworks/base" />
 <remove-project name="platform/hardware/qcom/audio" />
 <remove-project name="platform/hardware/qcom/camera" />
 <remove-project name="platform/hardware/qcom/media" />
@@ -17,7 +20,10 @@
 <remove-project name="platform/packages/apps/DeskClock" />
 <remove-project name="platform/packages/apps/Dialer" />
 <remove-project name="platform/packages/apps/Music" />
+<remove-project name="platform/packages/apps/MusicFX" />
+<remove-project name="platform/system/media" />
 <project path="external/libnfc-nci"      name="platform-external-libnfc-nci"     remote="alviteri" revision="android-6.0.0_r26" />
+<project path="frameworks/base"          name="platform-frameworks-base"         remote="alviteri" revision="android-6.0.0_r26" />
 <project path="hardware/qcom/audio"      name="platform-hardware-qcom-audio"     remote="alviteri" revision="android-6.0.0_r26" />
 <project path="hardware/qcom/camera"     name="camera"                           remote="sony"     revision="master" />
 <project path="hardware/qcom/media"      name="platform-hardware-qcom-media"     remote="alviteri" revision="android-6.0.0_r26" />
@@ -26,6 +32,8 @@
 <project path="packages/apps/DeskClock"  name="platform-packages-apps-DeskClock" remote="alviteri" revision="android-6.0.0_r26" />
 <project path="packages/apps/Dialer"     name="platform-packages-apps-Dialer"    remote="alviteri" revision="android-6.0.0_r26" />
 <project path="packages/apps/Apollo"     name="android_packages_apps_Apollo"     remote="omni"     revision="android-6.0" />
+<project path="packages/apps/DSPManager" name="android_packages_apps_DSPManager" remote="omni"     revision="android-6.0" />
+<project path="system/media"             name="platform-system-media"            remote="alviteri" revision="android-6.0.0_r26" />
 
 
 <project path="external/ant-wireless/ant_native" name="platform-external-ant-wireless-ant-native" remote="alviteri" revision="master" />
