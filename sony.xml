@@ -10,6 +10,7 @@
 <!-- android-6.0.0_r26 -->
 <!-- DSP Manager requires changes on frameworks-base and system/media also on devices needs override audio_effects.conf otherside
      it will crash -->
+<remove-project name="platform/build" />
 <remove-project name="platform/external/libnfc-nci" />
 <remove-project name="platform/frameworks/base" />
 <remove-project name="platform/hardware/qcom/audio" />
@@ -22,6 +23,7 @@
 <remove-project name="platform/packages/apps/Music" />
 <remove-project name="platform/packages/apps/MusicFX" />
 <remove-project name="platform/system/media" />
+<project path="build"                    name="platform-build"                   remote="alviteri" revision="android-6.0.0_r26" />
 <project path="external/libnfc-nci"      name="platform-external-libnfc-nci"     remote="alviteri" revision="android-6.0.0_r26" />
 <project path="frameworks/base"          name="platform-frameworks-base"         remote="alviteri" revision="android-6.0.0_r26" />
 <project path="hardware/qcom/audio"      name="platform-hardware-qcom-audio"     remote="alviteri" revision="android-6.0.0_r26" />
