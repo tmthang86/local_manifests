@@ -15,7 +15,6 @@
 <remove-project name="platform/frameworks/base" />
 <remove-project name="platform/hardware/qcom/audio" />
 <remove-project name="platform/hardware/qcom/camera" />
-<remove-project name="platform/hardware/qcom/media" />
 <remove-project name="platform/hardware/qcom/gps" />
 <remove-project name="platform/hardware/broadcom/libbt" />
 <remove-project name="platform/packages/apps/DeskClock" />
@@ -28,7 +27,6 @@
 <project path="frameworks/base"          name="platform-frameworks-base"         remote="alviteri" revision="android-6.0.0_r26" />
 <project path="hardware/qcom/audio"      name="platform-hardware-qcom-audio"     remote="alviteri" revision="android-6.0.0_r26" />
 <project path="hardware/qcom/camera"     name="camera"                           remote="sony"     revision="master" />
-<project path="hardware/qcom/media"      name="platform-hardware-qcom-media"     remote="alviteri" revision="android-6.0.0_r26" />
 <project path="hardware/qcom/gps"        name="platform-hardware-qcom-gps"       remote="alviteri" revision="android-6.0.0_r26" />
 <project path="hardware/broadcom/libbt"  name="platform-hardware-broadcom-libbt" remote="alviteri" revision="android-6.0.0_r26" />
 <project path="packages/apps/DeskClock"  name="platform-packages-apps-DeskClock" remote="alviteri" revision="android-6.0.0_r26" />
