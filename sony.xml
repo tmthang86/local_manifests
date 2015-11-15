@@ -4,12 +4,10 @@
 
 <remote name="sony" fetch="git://github.com/sonyxperiadev/" />
 <remote name="alviteri" fetch="git://github.com/alviteri/" />
-<remote name="omni" fetch="git://github.com/omnirom/" />
 
 
 <!-- android-6.0.0_r26 -->
-<!-- DSP Manager requires changes on frameworks-base and system/media also on devices needs override audio_effects.conf otherside
-     it will crash -->
+<remove-project name="platform/build" />
 <remove-project name="platform/external/libnfc-nci" />
 <remove-project name="platform/hardware/qcom/audio" />
 <remove-project name="platform/hardware/qcom/camera" />
@@ -20,6 +18,7 @@
 <remove-project name="platform/packages/apps/DeskClock" />
 <remove-project name="platform/packages/apps/Dialer" />
 <remove-project name="platform/packages/apps/Music" />
+<project path="build"                    name="platform-build"                   remote="alviteri" revision="android-6.0.0_r26" />
 <project path="external/libnfc-nci"      name="platform-external-libnfc-nci"     remote="alviteri" revision="android-6.0.0_r26" />
 <project path="hardware/qcom/audio"      name="platform-hardware-qcom-audio"     remote="alviteri" revision="android-6.0.0_r26" />
 <project path="hardware/qcom/camera"     name="camera"                           remote="sony"     revision="master" />
