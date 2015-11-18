@@ -6,18 +6,19 @@
 <remote name="alviteri" fetch="git://github.com/alviteri/" />
 
 
+<!-- android-5.1.1_r29 -->
 <remove-project name="platform/hardware/qcom/bt" />
 <remove-project name="platform/hardware/qcom/audio" />
 <remove-project name="platform/hardware/qcom/display" />
 <remove-project name="platform/external/libnfc-nci" />
 <remove-project name="platform/hardware/libhardware" />
 <remove-project name="platform/hardware/broadcom/libbt" />
-<project path="hardware/qcom/bt"        name="platform-hardware-qcom-bt"        remote="alviteri" revision="android-5.1.1_r24" />
-<project path="hardware/qcom/audio"     name="platform-hardware-qcom-audio"     remote="alviteri" revision="android-5.1.1_r24" />
-<project path="hardware/qcom/display"   name="platform-hardware-qcom-display"   remote="alviteri" revision="android-5.1.1_r24" />
-<project path="external/libnfc-nci"     name="platform-external-libnfc-nci"     remote="alviteri" revision="android-5.1.1_r24" />
-<project path="hardware/libhardware"    name="platform-hardware-libhardware"    remote="alviteri" revision="android-5.1.1_r24" />
-<project path="hardware/broadcom/libbt" name="platform-hardware-broadcom-libbt" remote="alviteri" revision="android-5.1.1_r24" />
+<project path="hardware/qcom/bt"        name="platform-hardware-qcom-bt"        remote="alviteri" revision="android-5.1.1_r29" />
+<project path="hardware/qcom/audio"     name="platform-hardware-qcom-audio"     remote="alviteri" revision="android-5.1.1_r29" />
+<project path="hardware/qcom/display"   name="platform-hardware-qcom-display"   remote="alviteri" revision="android-5.1.1_r29" />
+<project path="external/libnfc-nci"     name="platform-external-libnfc-nci"     remote="alviteri" revision="android-5.1.1_r29" />
+<project path="hardware/libhardware"    name="platform-hardware-libhardware"    remote="alviteri" revision="android-5.1.1_r29" />
+<project path="hardware/broadcom/libbt" name="platform-hardware-broadcom-libbt" remote="alviteri" revision="android-5.1.1_r29" />
 
 
 <project path="device/sony/amami"                name="device-sony-amami"          groups="device" remote="sony"     revision="l-mr1" />
@@ -41,8 +42,8 @@
 <project path="device/sony/tianchi"              name="device-sony-tianchi"        groups="device" remote="sony"     revision="l-mr1" />
 <project path="device/sony/togari"               name="device-sony-togari"         groups="device" remote="sony"     revision="l-mr1" />
 <project path="device/sony/yukon"                name="device-sony-yukon"          groups="device" remote="sony"     revision="l-mr1" />
-<project path="kernel/sony/msm"                  name="kernel"                     groups="device" remote="sony"     revision="aosp/AU_LINUX_ANDROID_LA.BF64.1.2.1_RB1.05.00.02.019.067" />
-<project path="vendor/sony/kernel"               name="vendor-sony-kernel"         groups="device" remote="alviteri" revision="master" />
+<project path="kernel/sony/msm"                  name="kernel"                     groups="device" remote="alviteri" revision="l-dev" />
+<project path="vendor/sony/kernel"               name="vendor-sony-kernel"         groups="device" remote="alviteri" revision="l-dev" />
 <project path="vendor/sony/system/thermanager"   name="thermanager"                groups="device" remote="sony"     revision="master" />
 <project path="vendor/sony/system/mkqcdtbootimg" name="mkqcdtbootimg"              groups="device" remote="sony"     revision="master" />
 <project path="vendor/sony/system/timekeep"      name="timekeep"                   groups="device" remote="sony"     revision="master" />
@@ -50,6 +51,5 @@
 <project path="device/qcom/sepolicy"             name="device-qcom-sepolicy"       groups="device" remote="sony"     revision="l-mr1" />
 <project path="vendor"                           name="vendor-sony-blobs"          groups="device" remote="alviteri" revision="l-mr1" />
 <project path="vendor/qcom/proprietary"          name="vendor-qcom-proprietary"    groups="device" remote="alviteri" revision="master" />
-<project path="vendor/google/products"           name="vendor-google-products"     groups="device" remote="alviteri" revision="l-mr1" />
 
 </manifest>
