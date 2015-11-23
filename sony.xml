@@ -34,6 +34,7 @@
 <project path="device/sony/kitakami"             name="device-sony-kitakami"       groups="device" remote="sony"     revision="l-mr1" />
 <project path="device/sony/leo"                  name="device-sony-leo"            groups="device" remote="sony"     revision="l-mr1" />
 <project path="device/sony/rhine"                name="device-sony-rhine"          groups="device" remote="sony"     revision="l-mr1" />
+<project path="device/sony/satsuki"              name="device-sony-satsuki"        groups="device" remote="sony"     revision="l-mr1" />
 <project path="device/sony/scorpion"             name="device-sony-scorpion"       groups="device" remote="sony"     revision="l-mr1" />
 <project path="device/sony/scorpion_windy"       name="device-sony-scorpion_windy" groups="device" remote="sony"     revision="l-mr1" />
 <project path="device/sony/seagull"              name="device-sony-seagull"        groups="device" remote="sony"     revision="l-mr1" />
