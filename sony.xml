@@ -1,71 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-
+<!--Please do not manually edit this file-->
 <manifest>
-
-<remote name="sony" fetch="git://github.com/sonyxperiadev/" />
-<remote name="alviteri" fetch="git://github.com/alviteri/" />
-
-
-<!-- android-6.0.0_r26 -->
-<remove-project name="platform/build" />
-<remove-project name="platform/external/libnfc-nci" />
-<remove-project name="platform/hardware/qcom/audio" />
-<remove-project name="platform/hardware/qcom/camera" />
-<remove-project name="platform/hardware/qcom/gps" />
-<remove-project name="platform/hardware/broadcom/libbt" />
-<remove-project name="platform/packages/apps/Browser" />
-<remove-project name="platform/packages/apps/Calendar" />
-<remove-project name="platform/packages/apps/DeskClock" />
-<remove-project name="platform/packages/apps/Dialer" />
-<remove-project name="platform/packages/apps/Music" />
-<project path="build"                    name="platform-build"                   remote="alviteri" revision="android-6.0.0_r26" />
-<project path="external/libnfc-nci"      name="platform-external-libnfc-nci"     remote="alviteri" revision="android-6.0.0_r26" />
-<project path="hardware/qcom/audio"      name="platform-hardware-qcom-audio"     remote="alviteri" revision="android-6.0.0_r26" />
-<project path="hardware/qcom/camera"     name="camera"                           remote="sony"     revision="master" />
-<project path="hardware/qcom/gps"        name="platform-hardware-qcom-gps"       remote="alviteri" revision="android-6.0.0_r26" />
-<project path="hardware/broadcom/libbt"  name="platform-hardware-broadcom-libbt" remote="alviteri" revision="android-6.0.0_r26" />
-<project path="packages/apps/DeskClock"  name="platform-packages-apps-DeskClock" remote="alviteri" revision="android-6.0.0_r26" />
-<project path="packages/apps/Dialer"     name="platform-packages-apps-Dialer"    remote="alviteri" revision="android-6.0.0_r26" />
-
-
-<project path="external/ant-wireless/ant_native" name="platform-external-ant-wireless-ant-native" remote="alviteri" revision="master" />
-<project path="external/ant-wireless/ant_service" name="platform-external-ant-wireless-ant-service" remote="alviteri" revision="master" />
-<project path="external/ant-wireless/antradio-library" name="platform-external-ant-wireless-antradio-library" remote="alviteri" revision="master" />
-
-
-<project path="device/sony/amami"                name="device-sony-amami"          groups="device" remote="sony"     revision="master" />
-<project path="device/sony/aries"                name="device-sony-aries"          groups="device" remote="sony"     revision="master" />
-<project path="device/sony/castor"               name="device-sony-castor"         groups="device" remote="sony"     revision="master" />
-<project path="device/sony/castor_windy"         name="device-sony-castor_windy"   groups="device" remote="sony"     revision="master" />
-<project path="device/sony/eagle"                name="device-sony-eagle"          groups="device" remote="sony"     revision="master" />
-<project path="device/sony/flamingo"             name="device-sony-flamingo"       groups="device" remote="sony"     revision="master" />
-<project path="device/sony/honami"               name="device-sony-honami"         groups="device" remote="sony"     revision="master" />
-<project path="device/sony/kanuti"               name="device-sony-kanuti"         groups="device" remote="sony"     revision="master" />
-<project path="device/sony/ivy"                  name="device-sony-ivy"            groups="device" remote="sony"     revision="master" />
-<project path="device/sony/karin"                name="device-sony-karin"          groups="device" remote="sony"     revision="master" />
-<project path="device/sony/karin_windy"          name="device-sony-karin_windy"    groups="device" remote="sony"     revision="master" />
-<project path="device/sony/kitakami"             name="device-sony-kitakami"       groups="device" remote="sony"     revision="master" />
-<project path="device/sony/leo"                  name="device-sony-leo"            groups="device" remote="sony"     revision="master" />
-<project path="device/sony/rhine"                name="device-sony-rhine"          groups="device" remote="sony"     revision="master" />
-<project path="device/sony/scorpion"             name="device-sony-scorpion"       groups="device" remote="sony"     revision="master" />
-<project path="device/sony/scorpion_windy"       name="device-sony-scorpion_windy" groups="device" remote="sony"     revision="master" />
-<project path="device/sony/seagull"              name="device-sony-seagull"        groups="device" remote="sony"     revision="master" />
-<project path="device/sony/shinano"              name="device-sony-shinano"        groups="device" remote="sony"     revision="master" />
-<project path="device/sony/sirius"               name="device-sony-sirius"         groups="device" remote="sony"     revision="master" />
-<project path="device/sony/sumire"               name="device-sony-sumire"         groups="device" remote="sony"     revision="master" />
-<project path="device/sony/suzuran"              name="device-sony-suzuran"        groups="device" remote="sony"     revision="master" />
-<project path="device/sony/tianchi"              name="device-sony-tianchi"        groups="device" remote="sony"     revision="master" />
-<project path="device/sony/togari"               name="device-sony-togari"         groups="device" remote="sony"     revision="master" />
-<project path="device/sony/tulip"                name="device-sony-tulip"          groups="device" remote="sony"     revision="master" />
-<project path="device/sony/yukon"                name="device-sony-yukon"          groups="device" remote="sony"     revision="master" />
-<project path="kernel/sony/msm"                  name="kernel"                     groups="device" remote="alviteri" revision="master-dev" />
-<project path="vendor/sony/kernel"               name="vendor-sony-kernel"         groups="device" remote="sony"     revision="master" />
-<project path="vendor/sony/system/thermanager"   name="thermanager"                groups="device" remote="sony"     revision="master" />
-<project path="vendor/sony/system/mkqcdtbootimg" name="mkqcdtbootimg"              groups="device" remote="sony"     revision="master" />
-<project path="vendor/sony/system/timekeep"      name="timekeep"                   groups="device" remote="sony"     revision="master" />
-<project path="vendor/sony/system/macaddrsetup"  name="macaddrsetup"               groups="device" remote="sony"     revision="master" />
-<project path="device/qcom/sepolicy"             name="device-qcom-sepolicy"       groups="device" remote="sony"     revision="master" />
-<project path="vendor"                           name="vendor-sony-blobs"          groups="device" remote="alviteri" revision="master" />
-<project path="vendor/qcom/proprietary"          name="vendor-qcom-proprietary"    groups="device" remote="alviteri" revision="master" />
-
+  <project name="crdroid-devices/android_device_sony_leo" path="device/sony/leo" remote="github" revision="6.0.0" />
+  <project name="crdroid-devices/android_device_sony_shinano" path="device/sony/shinano" remote="github" revision="6.0.0" />
+  <project name="sonyxperiadev/kernel" path="kernel/sony/msm" remote="github" revision="aosp/LA.BF64.1.2.2_rb4.7" />
+  <project name="sonyxperiadev/thermanager" path="hardware/sony/thermanager" remote="github" revision="master" />
+  <project name="sonyxperiadev/timekeep" path="hardware/sony/timekeep" remote="github" revision="master" />
+  <project name="sonyxperiadev/macaddrsetup" path="hardware/sony/macaddrsetup" remote="github" revision="master" />
+  <project name="alviteri/vendor-sony-blobs" path="vendor" remote="github" revision="master" />
+  <project name="alviteri/vendor-qcom-proprietary" path="vendor/qcom/proprietary" remote="github" revision="master" />
 </manifest>
