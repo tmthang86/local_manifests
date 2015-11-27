@@ -2,7 +2,8 @@
 <!--Please do not manually edit this file-->
 <manifest>
   <project name="crdroid-devices/android_device_sony_leo" path="device/sony/leo" remote="github" revision="6.0.0" />
-  <project name="crdroid-devices/android_device_sony_shinano" path="device/sony/shinano" remote="github" revision="6.0.0" />
+  <project name="crdroid-devices/android_device_sony_shinano" path="device/sony/shinano" remote="github" revision="test" />
+  <project name="sonyxperiadev/device-qcom-sepolicy" path="device/qcom/sepolicy2" remote="github" revision="master" />
   <project name="sonyxperiadev/kernel" path="kernel/sony/msm" remote="github" revision="aosp/LA.BF64.1.2.2_rb4.7" />
   <project name="sonyxperiadev/thermanager" path="hardware/sony/thermanager" remote="github" revision="master" />
   <project name="sonyxperiadev/timekeep" path="hardware/sony/timekeep" remote="github" revision="master" />
